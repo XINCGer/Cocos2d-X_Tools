@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MMWinRoot>
+	<MMWin><!-- 窗口 -->
+		<enWinType>MMNormalWin</enWinType>
+		<bg>tollgate/msgBg.jpg</bg>
+		<x>0</x>
+		<y>450</y>
+		<MMCld><!-- 区域1 -->
+			<enWinType>MMDiv</enWinType>
+			<x>7</x>
+			<y>40</y>
+			<MMCld><!-- 标签1 -->
+				<enWinType>MMLabel</enWinType>
+				<text>label1</text>
+				<fontSize>25</fontSize>
+			</MMCld>
+			<MMCld><!-- 标签2 -->
+				<enWinType>MMLabel</enWinType>
+				<text>label2</text>
+			</MMCld>
+		</MMCld>
+	</MMWin>
+</MMWinRoot>
