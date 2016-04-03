@@ -1,7 +1,8 @@
 #ODSocket说明文档
 
 >* ODSocekt对socket的一些操作都做好了封装，让socket的链接变得简单，同时它也是跨平台的。  
-DEMO:
+
+##DEMO:
 ```C++
 void HelloWorld::connectServer(){
     ODSocket cSocket;
@@ -20,11 +21,11 @@ void HelloWorld::connectServer(){
         result = cSocket.Connect(ip, port);
         retryTimes++;
 
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
+\#if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
         Sleep(500);
-#else
+\#else
         usleep(500);
-#endif
+\#endif
 
     }
     if (result) {
@@ -35,3 +36,8 @@ void HelloWorld::connectServer(){
     }
 }
 ```
+##大致使用流程：
+>* 创建ODSocket对象;
+>* 调用Init函数进行初始化;
+>* 调用Create函数创建socket;
+>* 指定服务器IP和端口，调用Connect函数开始连接服务器;
