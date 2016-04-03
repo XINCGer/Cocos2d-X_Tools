@@ -1,6 +1,6 @@
 #ODSocket说明文档
 
->* ODSocekt对socket的一些操作都做好了封装，让socket的链接变得简单，同时它也是跨平台的。
+>* ODSocekt对socket的一些操作都做好了封装，让socket的链接变得简单，同时它也是跨平台的。  
 DEMO:
 ```C++
 void HelloWorld::connectServer(){
