@@ -6,3 +6,4 @@
 >* [xml解析器](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/LoadXmlFile)
 >* [文件加密模块](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/encryption)
 >* [ODSocket网络传输模块](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/ODSocket)
+>* [Cocos2dx开发常见问题汇总](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/ProblemCollection)
