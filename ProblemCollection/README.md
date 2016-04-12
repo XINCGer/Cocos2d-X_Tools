@@ -30,7 +30,7 @@ Sequence的create函数的参数是可变参数，也就是说，我们可以给
 IOS : arc4random()%100  
 Android:srand(time(NULL));   random();  
 ```c++```
-> \ #include <random>
+#include <random>
 std::uniform_int_distribution<unsigned> u(1,1000);
 std::default_random_engine e;
 e.seed((unsigned)time(NULL));
