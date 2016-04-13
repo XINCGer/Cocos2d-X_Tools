@@ -29,7 +29,7 @@ Sequence的create函数的参数是可变参数，也就是说，我们可以给
 >* `如何同一时间，生成不同的随机数`  
 IOS : arc4random()%100  
 Android:srand(time(NULL));   random();  
-```c++```
+> ```c++```
 #include <random>
 std::uniform_int_distribution<unsigned> u(1,1000);
 std::default_random_engine e;
@@ -40,7 +40,7 @@ int random_number = u(e);
 在网上能找到几种实现方法，这里只记录下认为比较高效的做法
 用数组 A[] 存放x到y的数值，然后在(x,y)产生第一个随机数H做为下标，    从数组A中取出A[H]，然后将数组最后个元素赋值给A[H]，再重新在（x,y-1）产生，如些循环
 具体代码实现
-```c++```
+> ```c++```
 int quantity = 12;
     int start = 0;
     int end = 36;
@@ -50,18 +50,15 @@ int quantity = 12;
     }
     int sequence[total];  //存放随机数的数组
     int output[quantity]; //最终生成的不重复一系列随机数
-    
     //将sequence 初始化
     for (int i = 0; i < total; i++) {
         sequence[i] = start+i;
     }
-    
     //随机数种子
     cc_timeval psv;
     CCTime::gettimeofdayCocos2d(&psv, NULL);
     unsigned long int seed = psv.tv_sec*1000 + psv.tv_usec/1000;
     srand(seed);
-    
     for (int i = 0; i < quantity; i++) {
         int num = this->random(0, end - 1);//在指定范围下产生随机数
         output[i] = sequence[num];//将产生的随机数存储
