@@ -1,0 +1,5 @@
+[
+    {"id":1, "model":"monster1.png", "atk":190},
+    {"id":2, "model":"monster2.png", "atk":10},
+    {"id":3, "model":"monster3.png", "atk":650}
+]
