@@ -54,5 +54,17 @@ typedef Vec2 Point;
 　　需要注意的是，这两种转换都是基于当前的节点坐标，并且不考虑锚点，而一个节点的position所使用的坐标是基于它父节点的坐标的，因此，我们要把Node的位置转换到世界坐标系中应该调用父节点的convertToWorldSpace函数。Node类还提供了convertToNodeSpaceAR和convertToWorldSpaceAR两个函数。这两个函数完成同样的转换功能，但是他们是基于坐标锚点的。
 
  
-
+## 补充：左手坐标系
+   `左手坐标系规则：`把你的左手抬起握拳，且伸出大拇指。你的大拇指指向的方向与脚本中的Vector3的属性相同，即up表示大拇指指向上，down表示大拇指指向下，以此类推，则左手四指弯曲的方向就是游戏对象旋转的方向。
+   ```c#```
+   //左手坐标系
+		if (Input.GetMouseButton (0)) {
+			Debug.Log ("开始顺时针旋转");
+			this.transform.Rotate (Vector3.up, Space.World);
+		} else if (Input.GetMouseButton (1)) {
+			Debug.Log ("开始逆时针旋转");
+			this.transform.Rotate (Vector3.down, Space.World);
+		}
+		```  
+		
 了解并掌握了以上几种最基本的坐标系知识，才能高效快捷的使用Cocos2d-x开发游戏。
