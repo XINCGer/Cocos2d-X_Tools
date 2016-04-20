@@ -65,6 +65,4 @@ typedef Vec2 Point;
 			Debug.Log ("开始逆时针旋转");
 			this.transform.Rotate (Vector3.down, Space.World);
 		}
-		```  
-		
-了解并掌握了以上几种最基本的坐标系知识，才能高效快捷的使用Cocos2d-x开发游戏。
+```
