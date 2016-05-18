@@ -8,3 +8,18 @@ Tips:使用type函数可以获得变量的类型，table类似于数组或者容
 表类型实现了一个关联数组，换句话来说，数组可以用任何东西做索引，而不仅限于数字。（nil不能作为表的索引和表的对象）  
 同时，表是Lua中唯一的一种数据结构，它可以用来描述原始的数组、符号表、集合、记录、图、树等。因为采用同一种语法，  
 开发者可以通过a.name或者a["name"]来访问表中的对象。  
+
+2.Lua关键保留字  
+and break do else elseif end false for function if in local nil not or repeat return then true until while  
+单行注释： “__”  多行注释： "--[[  --]]"  --[[ print(10)--]]  
+
+3.表达式
+Lua的表达式与其他语言类似，lua中比较特别的是，在表达式中可以包含非函数定义和表构造，这正是其两个特殊的数据类型。  
+逻辑运算符认为除了nil 和 false 之外，其他数值都是true，这其中也包括了“0”。and,or并不会返回一个真或假的数值，而  
+是返回两个操作数变量。 “a and b”如果a为真，则返回b,否则返回a。"a or b"如果a为假，则返回b，否则返回a。not的结果  
+只能返回true或者false。  
+举例：  
+print(4 and 5)-->5   print(nil and 13)-->nil  print(false and 13)-->false  print(4 or 5)-->4  
+print(false or 5)-->5  print(not nil)-->true  print(not false)-->true  print(not 0)-->false  
+print(not no nil)-->false  
+C语言中的三元运算符a?b:c 在lua中实现的方式为(a and b)or c
