@@ -22,4 +22,10 @@ Lua的表达式与其他语言类似，lua中比较特别的是，在表达式�
 print(4 and 5)-->5   print(nil and 13)-->nil  print(false and 13)-->false  print(4 or 5)-->4  
 print(false or 5)-->5  print(not nil)-->true  print(not false)-->true  print(not 0)-->false  
 print(not no nil)-->false  
-C语言中的三元运算符a?b:c 在lua中实现的方式为(a and b)or c
+C语言中的三元运算符a?b:c 在lua中实现的方式为(a and b)or c  
+在Lua中还有一个特别的构造运算符，其实在其他语言中也存在。它就是大括号表示的"{}"，在C++和Java中被称为数组，而在Lua中则是表类型。  
+构造器是创建和初始化表的表达式，开发者使用它可以直接创建空表，也可以初始化表。  
+days={"a","b","c"}  
+print(days[1]) -->a  
+表类型数值下标是从“1”开始计算的，不推荐数组下标从0开始，否则很多标准库不能使用。  
+
