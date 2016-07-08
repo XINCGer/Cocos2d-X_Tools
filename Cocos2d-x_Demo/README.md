@@ -5,4 +5,5 @@
 >* [多点触控的羊驼游戏](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/TouchAllAtOnce)
 >* [鼠标和键盘的操作](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/MouseAndKeyboard)  
 >* [使用加速度感应器](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/AccelerationSensor)  
->* [虚拟摇杆](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/VirtualJoystick)
+>* [虚拟摇杆](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/VirtualJoystick)  
+>* [卡牌翻转](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/RotateCard)
