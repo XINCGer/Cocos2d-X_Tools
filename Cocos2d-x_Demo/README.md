@@ -7,4 +7,5 @@
 >* [使用加速度感应器](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/AccelerationSensor)  
 >* [虚拟摇杆](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/VirtualJoystick)  
 >* [卡牌翻转](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/RotateCard)
->* [利用动画实现人物行走](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/SpriteWalkAnimation)
+>* [利用动画实现人物行走](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/SpriteWalkAnimation)  
+>* [使用定时器实现炸弹](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/BombBySchedule)  
