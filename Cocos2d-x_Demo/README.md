@@ -11,4 +11,5 @@
 >* [使用定时器实现炸弹](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/BombBySchedule)  
 >* [利用摇杆和定时器实现人物行走](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/SpriteWalkByVirtualJoystick)  
 >* [实现回合制游戏战斗效果](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/TurnBasedFight)  
->* [使用图片作为地图](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/MapByPicture)
+>* [使用图片作为地图](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/MapByPicture)  
+>* [TiledMap地图的使用](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/UsingTiledMap)
