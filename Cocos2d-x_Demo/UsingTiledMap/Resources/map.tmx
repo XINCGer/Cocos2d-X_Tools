@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="33" tileheight="33">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="33" tileheight="33">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="layer" tilewidth="33" tileheight="33">
+  <image source="layer.png" width="66" height="33"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collidable" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Layer1" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzqESQFAQAMBLSEhI7/8/0+nXBGdmw/YdETGggSnNhaXB7bGmrbA3uPn5fc3Pz++/vyOdhavBDQAAAN64AbR8tiw=
+  </data>
+ </layer>
+ <layer name="Layer2" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmMsKwjAQAKOe1JOvg6+Kigff//93bigBK8nu1mSbUHZgDkUCw0ZkrTFKlwzAoaCjyL4xOBF0qn3ap31ifTNwnsCVUF8qQvegfTy0D+dAfJ67j0L76DvEcH1L0/w9LG1+tqf6eeawBjcRboX7ruAt4AU8EZ6F+zCOhfe52WJzzNnnwOZYQp+dY2iGJfRhjaX0WXz3rH01L+G+nanfG+z/7OMQ09fF/tLHvtD/wAVxjvN9S9GXirfHHH0x+9TT0/dgnKN2sG84O0lq28wY2/ekvLfoU/rJB6kSLRY=
+  </data>
+ </layer>
+ <layer name="meta" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1bsNACAMQ8GsBPsPxwaAyAcreoU7hE9uMsxskLLMguDDhw+foi8q+PBl9yv71PdT8Hn+6r5f9h3o7ouw4/M58fmMCr5dF7679+yHL8r34q/a4bb7h+90C7KCr8ZHemYB7mg0kg==
+  </data>
+ </layer>
+</map>
