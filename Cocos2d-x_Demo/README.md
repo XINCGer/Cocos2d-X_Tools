@@ -14,4 +14,5 @@
 >* [使用图片作为地图](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/MapByPicture)  
 >* [TiledMap瓦片地图与地图编辑器](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/UsingTiledMap)  
 >* [使用粒子系统制作雪花效果](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/SnowByParticleSystem)  
->* [利用物理引擎制作的小球](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/BallByPhysics)
+>* [利用物理引擎制作的小球](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/BallByPhysics)  
+>* [物理引擎的刚体操控与倍数设置](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/AdvBallByPhysics)
