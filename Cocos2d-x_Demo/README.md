@@ -16,4 +16,5 @@
 >* [使用粒子系统制作雪花效果](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/SnowByParticleSystem)  
 >* [利用物理引擎制作的小球](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/BallByPhysics)  
 >* [物理引擎的刚体操控与倍数设置](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/AdvBallByPhysics)  
->* [使用物理引擎实现的简单台球](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/Billiards)
+>* [使用物理引擎实现的简单台球](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/Billiards)  
+>* [Cocos2d-X的本地信息存储](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/LocalDataSave)
