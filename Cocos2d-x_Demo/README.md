@@ -20,4 +20,5 @@
 >* [Cocos2d-X的本地信息存储](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/LocalDataSave)  
 >* [Cocos2d-X中的文件读写](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/FileSystemInCocos2dx)  
 >* [Cocos2d-X中的弱联网技术](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/WeakNetworking)  
->* [XML文件创建与解析](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/XmlAnalyze)
+>* [XML文件创建与解析](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/XmlAnalyze)  
+>* [高级UI控件](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/AdvancedUIWidget)
