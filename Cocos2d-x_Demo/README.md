@@ -23,4 +23,5 @@
 >* [XML文件创建与解析](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/XmlAnalyze)  
 >* [高级UI控件](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/AdvancedUIWidget)  
 >* [连连看小游戏](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/LinkGame)  
->* [PopStar三消类游戏](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/PopStar)
+>* [PopStar三消类游戏](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/PopStar)  
+>* [CardGame棋牌游戏](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo/CardGame)
