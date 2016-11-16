@@ -13,4 +13,5 @@
 >* [Lua学习](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/LuaTraining)
 >* [不值一提的小Demo](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos2d-x_Demo)  
 >* [Cocos2d-x开发中常用的C++11新特性](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/CPlusPlus11)
->* [Cocos2d-x精彩技术文档分享](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Doc)
+>* [Cocos2d-x精彩技术文档分享](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Doc)  
+>* [Cocos2d-x数据存储技术之SQLite](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/SQLLite)
