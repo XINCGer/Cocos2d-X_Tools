@@ -11,7 +11,8 @@ public:
 
     // Here's a difference. Method 'init' in cocos2d-x returns bool, instead of returning 'id' in cocos2d-iphone
     virtual bool init();
-
+	void createDatabase(const std::string dbName);
+	void createTable(const std::string tableName);
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
 };
