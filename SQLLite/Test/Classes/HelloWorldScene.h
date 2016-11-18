@@ -2,6 +2,7 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "sqlite3.h"
 
 class HelloWorld : public cocos2d::Layer
 {
@@ -11,8 +12,8 @@ public:
 
     // Here's a difference. Method 'init' in cocos2d-x returns bool, instead of returning 'id' in cocos2d-iphone
     virtual bool init();
-	void createDatabase(const std::string dbName);
-	void createTable(const std::string tableName);
+	sqlite3* createDatabase(const std::string dbName);
+	void createTable(const std::string sql, const std::string path);
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
 };

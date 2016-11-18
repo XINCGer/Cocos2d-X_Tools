@@ -24,7 +24,7 @@ bool HelloWorld::init()
 /**
  * 创建数据库
  */
-void HelloWorld::createDatabase(const std::string dbName)
+sqlite3* HelloWorld::createDatabase(const std::string dbName)
 {
 	sqlite3 *pdb = NULL;
 	std::string path = FileUtils::getInstance()->getWritablePath()+dbName+".db";
@@ -37,12 +37,13 @@ void HelloWorld::createDatabase(const std::string dbName)
 		log("Open DataBase Failed!,Error Number:" + result);
 		exit(-1);
 	}
+	return pdb;
 }
 
 /*
  * 创建表
  */
-void HelloWorld::createTable(const std::string tableName)
+void HelloWorld::createTable(const std::string sql,const std::string path)
 {
 	std::string sql = "create table student(ID integer primary key autoincrement,name text,sex text)";
 }
