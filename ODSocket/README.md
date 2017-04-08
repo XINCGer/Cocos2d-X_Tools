@@ -1,8 +1,8 @@
-#ODSocket说明文档
+## ODSocket说明文档
 
 >* ODSocekt对socket的一些操作都做好了封装，让socket的链接变得简单，同时它也是跨平台的。  
 
-##DEMO:
+## DEMO:
 ```C++
 void HelloWorld::connectServer(){
     ODSocket cSocket;
@@ -36,7 +36,7 @@ void HelloWorld::connectServer(){
     }
 }
 ```
-##大致使用流程：
+## 大致使用流程：
 >* 创建ODSocket对象;
 >* 调用Init函数进行初始化;
 >* 调用Create函数创建socket;
