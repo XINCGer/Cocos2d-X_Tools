@@ -1,0 +1,369 @@
+﻿  AppDelegate.cpp
+  GameScene.cpp
+  Hero.cpp
+  InstructScene.cpp
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\hero.cpp(51): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.h(34): warning C4996: 'cocos2d::String': was declared deprecated (compiling source file ..\Classes\AppDelegate.cpp)
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String' (compiling source file ..\Classes\AppDelegate.cpp)
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.h(34): warning C4996: 'cocos2d::String': was declared deprecated (compiling source file ..\Classes\GameScene.cpp)
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String' (compiling source file ..\Classes\GameScene.cpp)
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\appdelegate.cpp(35): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\appdelegate.cpp(49): warning C4305: 'argument': truncation from 'double' to 'float'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.h(34): warning C4996: 'cocos2d::String': was declared deprecated (compiling source file ..\Classes\InstructScene.cpp)
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String' (compiling source file ..\Classes\InstructScene.cpp)
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(84): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(126): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(128): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(228): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(229): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(231): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(257): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(267): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(429): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(437): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(438): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(439): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(440): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(441): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(427): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(464): warning C4101: 'beatSprite': unreferenced local variable
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.cpp(463): warning C4101: 'beAct': unreferenced local variable
+  MainScene.cpp
+  MapItem.cpp
+  Monstro.cpp
+  NewMap.cpp
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.h(34): warning C4996: 'cocos2d::String': was declared deprecated (compiling source file ..\Classes\MainScene.cpp)
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String' (compiling source file ..\Classes\MainScene.cpp)
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(66): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(69): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(70): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(71): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(72): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(73): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(74): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(75): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(76): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(79): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(80): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(91): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(92): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(93): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(94): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(95): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(96): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(97): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(98): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(99): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(100): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(101): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\mainscene.cpp(102): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+  SettlementScene.cpp
+  ShopScene.cpp
+  StartGameScene.cpp
+  main.cpp
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.h(34): warning C4996: 'cocos2d::String': was declared deprecated (compiling source file ..\Classes\SettlementScene.cpp)
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String' (compiling source file ..\Classes\SettlementScene.cpp)
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.h(34): warning C4996: 'cocos2d::String': was declared deprecated (compiling source file ..\Classes\ShopScene.cpp)
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String' (compiling source file ..\Classes\ShopScene.cpp)
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(58): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(97): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(102): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(51): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(56): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(57): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(59): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(82): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(83): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(84): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(85): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(86): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(87): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(89): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(90): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(93): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(94): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\settlementscene.cpp(105): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(122): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(161): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(163): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(167): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(169): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(179): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(181): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(185): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(187): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(197): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(199): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(209): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(211): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(239): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(241): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(242): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(253): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(255): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(256): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(265): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(267): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(268): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(277): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(279): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(280): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(289): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(291): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(292): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(300): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(302): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(303): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(311): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(313): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(314): warning C4996: 'cocos2d::String': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(251): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(253): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(254): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(255): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(256): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(257): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(263): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(265): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(266): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(267): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(268): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(269): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(275): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(277): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(278): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(279): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(280): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(281): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(287): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(289): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(290): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(291): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(292): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(293): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(299): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(300): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(301): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(302): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(303): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(304): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(310): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(311): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(312): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(313): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(314): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\shopscene.cpp(315): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\gamescene.h(34): warning C4996: 'cocos2d::String': was declared deprecated (compiling source file ..\Classes\StartGameScene.cpp)
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(1051): note: see declaration of 'cocos2d::String' (compiling source file ..\Classes\StartGameScene.cpp)
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(52): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(54): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(83): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(85): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(87): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(97): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(101): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(111): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(149): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(152): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(154): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(157): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(167): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(169): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(171): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(176): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(182): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(184): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(188): warning C4996: 'cocos2d::UserDefault::sharedUserDefault': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\base\ccuserdefault.h(238): note: see declaration of 'cocos2d::UserDefault::sharedUserDefault'
+e:\gitproject\cocos2d-x_tools\graduationdesign\cavernexploration\classes\startgamescene.cpp(191): warning C4996: 'cocos2d::ui::Text::setText': was declared deprecated
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: see declaration of 'cocos2d::ui::Text::setText'
+  复制了 60 个文件
+AppDelegate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\CavernExploration.lib and object E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\CavernExploration.exp
+  CavernExploration.vcxproj -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\CavernExploration.exe
+  CavernExploration.vcxproj -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\CavernExploration.pdb (Full PDB)
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\beat0.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\beat0.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\chnString.xml -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\chnString.xml
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\hero_start.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\hero_start.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\m0_start.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\m0_start.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\m1_start.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\m1_start.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\m2_start.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\m2_start.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\skill3_map.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\skill3_map.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\wall0.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\wall0.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\wall1.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\wall1.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\wall2.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\wall2.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\wall3.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\wall3.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\wall4.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\wall4.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\wall5.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\wall5.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\wall6.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\wall6.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\wall7.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\wall7.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\InstructScene.csb -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\InstructScene.csb
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\MainScene.csb -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\MainScene.csb
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\SettlementScene.csb -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\SettlementScene.csb
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\ShopScene.csb -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\ShopScene.csb
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\StartGameScene.csb -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\StartGameScene.csb
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\Default\Button_Disable.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\Default\Button_Disable.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\font\font_fzyt.ttf -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\font\font_fzyt.ttf
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\font\jiesuan.ttf -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\font\jiesuan.ttf
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\font\menu_font.ttf -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\font\menu_font.ttf
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\font\shuiyueti.ttf -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\font\shuiyueti.ttf
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\font\TotalEclipse.ttf -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\font\TotalEclipse.ttf
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\heroMove\HeroMovePlist.plist -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\heroMove\HeroMovePlist.plist
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\heroMove\HeroMovePlist.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\heroMove\HeroMovePlist.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\hitAnim\BeatPlist.plist -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\hitAnim\BeatPlist.plist
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\hitAnim\BeatPlist.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\hitAnim\BeatPlist.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\image\button3.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\image\button3.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\image\Plist.plist -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\image\Plist.plist
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\image\Plist.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\image\Plist.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\Monstros\M0Plist.plist -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\Monstros\M0Plist.plist
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\Monstros\M0Plist.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\Monstros\M0Plist.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\Monstros\M1Plist.plist -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\Monstros\M1Plist.plist
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\Monstros\M1Plist.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\Monstros\M1Plist.png
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\Monstros\M2Plist.plist -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\Monstros\M2Plist.plist
+  E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\Resources\res\Monstros\M2Plist.png -> E:\GitProject\Cocos2d-X_Tools\GraduationDesign\CavernExploration\proj.win32\Debug.win32\res\Monstros\M2Plist.png
+  复制了 39 个文件
