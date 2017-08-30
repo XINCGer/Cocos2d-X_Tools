@@ -15,5 +15,6 @@
 >* [Cocos2d-x开发中常用的C++11新特性](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/CPlusPlus11)
 >* [Cocos2d-x精彩技术文档分享](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Doc)  
 >* [Cocos2d-x数据存储技术之SQLite](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/SQLLite)  
+>* [简陋动画工具类](./AnimationUtils)  
 >* [开个CocosCreater的新坑](./CocosCreater)  
 >* [熊猫的毕业设计](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/GraduationDesign)
