@@ -18,4 +18,5 @@
 >* [简陋动画工具类](./AnimationUtils)  
 >* [开个CocosCreater的新坑](./CocosCreater)  
 >* [熊猫的毕业设计](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/GraduationDesign)  
->* [Cocos-lua练习](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos_lua)
+>* [Cocos-lua练习](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos_lua)  
+>* [Cocos剪切板工具](./Clipboard)  
