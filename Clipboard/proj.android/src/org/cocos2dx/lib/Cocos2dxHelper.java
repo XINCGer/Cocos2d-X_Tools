@@ -607,5 +607,27 @@ public class Cocos2dxHelper {
             return -1;
         }
     }
+    
+    static public int copyToClipboard(final String text)
+    {
+        try
+        {
+            Runnable runnable = new Runnable() {
+                public void run() {
+                	android.content.ClipboardManager clipboard = (android.content.ClipboardManager) Cocos2dxActivity.getContext().getSystemService(Context.CLIPBOARD_SERVICE);
+                    android.content.ClipData clip = android.content.ClipData.newPlainText("CopyText", text);
+                    clipboard.setPrimaryClip(clip);
+                }
+            };
+            //getSystemService运行所在线程必须执行过Looper.prepare()
+            //否则会出现Can't create handler inside thread that has not called Looper.prepare()
+            ((Cocos2dxActivity)sActivity).runOnUiThread(runnable);
+ 
+        }catch(Exception e){
+            e.printStackTrace();
+            return -1;
+        }
+        return 0;
+    }
     //Enhance API modification end     
 }
