@@ -25,6 +25,7 @@ THE SOFTWARE.
 package org.cocos2dx.lib;
 
 import android.app.Activity;
+import android.content.ClipData;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -608,7 +609,8 @@ public class Cocos2dxHelper {
         }
     }
     
-    static public int copyToClipboard(final String text)
+    //复制文字到剪切板
+    public static int copyToClipboard(final String text)
     {
         try
         {
@@ -628,6 +630,21 @@ public class Cocos2dxHelper {
             return -1;
         }
         return 0;
+    }
+    
+    //取出当前剪切板中的文字
+    public static String copyFromClipboard(){
+        try
+        {
+        	android.content.ClipboardManager clipboard = (android.content.ClipboardManager) Cocos2dxActivity.getContext().getSystemService(Context.CLIPBOARD_SERVICE);
+        	android.content.ClipData clipData = clipboard.getPrimaryClip();
+        	String content = clipData.getItemAt(0).getText().toString();
+        	return content;
+ 
+        }catch(Exception e){
+            e.printStackTrace();
+            return null;
+        }
     }
     //Enhance API modification end     
 }
