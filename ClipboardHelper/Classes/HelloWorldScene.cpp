@@ -2,6 +2,10 @@
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 
+//#if(CC_PLATFORM_ANDROID == CC_TARGET_PLATFORM)
+#include "platform/android/jni/JniHelper.h"
+//#endif
+
 USING_NS_CC;
 using namespace cocos2d::ui;
 //using namespace cocostudio::timeline;
@@ -31,8 +35,7 @@ bool HelloWorld::init()
 		return false;
 	}
 
-
-
+	
 	auto visibleSize = Director::getInstance()->getVisibleSize();
 
 	auto buttonCopy = Button::create("button.png");
@@ -46,7 +49,7 @@ bool HelloWorld::init()
 
 	auto textField = TextField::create();
 	textField->setPosition(Point(visibleSize.width / 3, visibleSize.height / 2 + 50));
-	textField->setText("Input Some Content Here");
+	//textField->setText("Input Some Content Here");
 	
 
 	auto buttonPaste = Button::create("button.png");
