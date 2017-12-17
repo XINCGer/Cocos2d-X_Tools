@@ -38,19 +38,25 @@ bool HelloWorld::init()
 	
 	auto visibleSize = Director::getInstance()->getVisibleSize();
 
-	auto buttonCopy = Button::create("button.png");
-	buttonCopy->setTitleText("Copy");
-	buttonCopy->setPosition(Point(visibleSize.width / 3 * 2, visibleSize.height / 2 + 50));
-	buttonCopy->addTouchEventListener([](Ref *pSender, Widget::TouchEventType type) {
-		if (Widget::TouchEventType::ENDED == type) {
-
-		}
-	});
-
 	auto textField = TextField::create();
 	textField->setPosition(Point(visibleSize.width / 3, visibleSize.height / 2 + 50));
 	//textField->setText("Input Some Content Here");
-	
+
+
+	auto buttonCopy = Button::create("button.png");
+	buttonCopy->setTitleText("Copy");
+	buttonCopy->setPosition(Point(visibleSize.width / 3 * 2, visibleSize.height / 2 + 50));
+	buttonCopy->addTouchEventListener([textField](Ref *pSender, Widget::TouchEventType type) {
+		if (Widget::TouchEventType::ENDED == type) {
+
+			JniMethodInfo jniMethodInfo;
+			if (JniHelper::getStaticMethodInfo(jniMethodInfo, "org/cocos2dx/lib/Cocos2dxHelper", "copyToClipboard", "()V"))
+			{
+				jstring jname = jniMethodInfo.env->NewStringUTF(textField->getString());
+				jniMethodInfo.env->CallStaticVoidMethod();
+			}
+		}
+	});
 
 	auto buttonPaste = Button::create("button.png");
 	buttonPaste->setTitleText("Paste");
