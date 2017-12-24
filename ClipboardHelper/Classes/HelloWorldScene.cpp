@@ -53,7 +53,7 @@ bool HelloWorld::init()
 			if (JniHelper::getStaticMethodInfo(jniMethodInfo, "org/cocos2dx/lib/Cocos2dxHelper", "copyToClipboard", "()V"))
 			{
 				jstring jname = jniMethodInfo.env->NewStringUTF(textField->getString());
-				jniMethodInfo.env->CallStaticVoidMethod();
+				jniMethodInfo.env->CallStaticVoidMethod(jniMethodInfo.classID,jniMethodInfo.methodID,jname);
 			}
 		}
 	});
@@ -63,7 +63,11 @@ bool HelloWorld::init()
 	buttonPaste->setPosition(Point(visibleSize.width / 3 * 2, visibleSize.height / 2 - 50));
 	buttonPaste->addTouchEventListener([](Ref* pSender, Widget::TouchEventType type) {
 		if (Widget::TouchEventType::ENDED == type) {
-
+			JniMethodInfo jniMethodInfo;
+			if (JniHelper::getStaticMethodInfo(jniMethodInfo, "org/cocos2dx/lib/Cocos2dxHelper", "copyFromClipboard", "()V"))
+			{
+				jniMethodInfo.env->CallStaticStringMethod()
+			}
 		}
 	});
 
