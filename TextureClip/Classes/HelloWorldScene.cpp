@@ -3,7 +3,7 @@
 #include "ui/CocosGUI.h"
 
 //#define  METHOD_1 1
-
+#define  METHOD_2 2
 USING_NS_CC;
 
 using namespace cocostudio::timeline;
@@ -85,10 +85,11 @@ bool HelloWorld::init()
     {
         return false;
     }
+
+
 	auto visibleSize = Director::getInstance()->getVisibleSize();
 	auto width = visibleSize.width;
 	auto height = visibleSize.height;
-
 
 	//设置原型遮罩头像方法1  START
 	//通过设置层级的方法，利用遮罩实现裁剪，遮罩需要为PNG格式，并且存有alpha通道
@@ -107,9 +108,31 @@ bool HelloWorld::init()
 #endif
 	//设置原型遮罩头像方法1  END
 
+
 	//设置原型遮罩头像方法2  START
 #ifdef METHOD_2
-	
+	auto headIcon = Sprite::create("head.png");
+	auto bg = Sprite::create("bg.jpg");
+
+	bg->setPosition(width / 2, height / 2);
+	this->addChild(bg);
+
+	//设置遮罩
+	auto stencil = Sprite::create("head_bg.png");
+	//设置ClipNode
+	auto clipNode = ClippingNode::create();
+	//设置裁剪蒙板
+	clipNode->setStencil(stencil);
+	//设置裁剪模式:底板可见
+	clipNode->setInverted(false);
+	//设置alpha阈值为0
+	clipNode->setAlphaThreshold(0);
+	this->addChild(clipNode);
+
+	//设置被裁剪的内容
+	clipNode->addChild(headIcon);
+	clipNode->setPosition(width / 2, height / 2);
+
 #endif
 
     return true;
