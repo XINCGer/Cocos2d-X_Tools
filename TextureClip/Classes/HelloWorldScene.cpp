@@ -23,6 +23,8 @@ Scene* HelloWorld::createScene()
     return scene;
 }
 
+
+
 // on "init" you need to initialize your instance
 bool HelloWorld::init()
 {
@@ -136,4 +138,10 @@ bool HelloWorld::init()
 #endif
 
     return true;
+}
+
+//创建一个ClipNode的工具方法，参数:底图路径,遮罩路径,裁剪的模式,alpah阈值
+cocos2d::ClippingNode* HelloWorld::createTextureClip(const std::string& imagePath, const std::string& maskPath, const bool inverted, const float alphaThreshold)
+{
+
 }
