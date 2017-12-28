@@ -2,6 +2,8 @@
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 
+//#define  METHOD_1 1
+
 USING_NS_CC;
 
 using namespace cocostudio::timeline;
@@ -89,6 +91,8 @@ bool HelloWorld::init()
 
 
 	//设置原型遮罩头像方法1  START
+	//通过设置层级的方法，利用遮罩实现裁剪，遮罩需要为PNG格式，并且存有alpha通道
+#ifdef METHOD_1
 	auto headBg = Sprite::create("head_bg_1.png");
 	auto headIcon = Sprite::create("head.png");
 	auto bg = Sprite::create("bg.jpg");
@@ -100,7 +104,13 @@ bool HelloWorld::init()
 	this->addChild(bg);
 	this->addChild(headIcon);
 	this->addChild(headBg);
+#endif
 	//设置原型遮罩头像方法1  END
+
+	//设置原型遮罩头像方法2  START
+#ifdef METHOD_2
+	
+#endif
 
     return true;
 }
