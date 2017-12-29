@@ -20,4 +20,5 @@
 >* [熊猫的毕业设计](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/GraduationDesign)  
 >* [Cocos-lua练习](https://github.com/XINCGer/Cocos2d-X_Tools/tree/master/Cocos_lua)  
 >* [Cocos剪切板工具](./ClipboardHelper)  
+>* [Cocos2d-X上实现任意形状的头像裁剪](./TextureClip)
 
