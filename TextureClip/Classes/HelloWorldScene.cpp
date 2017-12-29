@@ -4,6 +4,8 @@
 
 //#define  METHOD_1 1
 #define  METHOD_2 2
+//#define  METHOD_3 3
+
 USING_NS_CC;
 
 using namespace cocostudio::timeline;
@@ -112,6 +114,7 @@ bool HelloWorld::init()
 
 
 	//设置原型遮罩头像方法2  START
+	//利用ClipNode实现遮罩
 #ifdef METHOD_2
 	auto headIcon = Sprite::create("head.png");
 	auto bg = Sprite::create("bg.jpg");
@@ -137,11 +140,26 @@ bool HelloWorld::init()
 
 #endif
 
+	//设置原型遮罩头像方法3  START
+	//将ClipNode写成一个工具方法，实现遮罩
+#ifdef  METHOD_3
+	auto clipNode = this->createTextureClip("head.png", "head_bg.png", false, 0.0f);
+	clipNode->setPosition(width / 2, height / 2);
+	this->addChild(clipNode);
+#endif
+
     return true;
 }
 
 //创建一个ClipNode的工具方法，参数:底图路径,遮罩路径,裁剪的模式,alpah阈值
 cocos2d::ClippingNode* HelloWorld::createTextureClip(const std::string& imagePath, const std::string& maskPath, const bool inverted, const float alphaThreshold)
 {
-
+	auto clipNode = ClippingNode::create();
+	auto stencil = Sprite::create(maskPath);
+	clipNode->setStencil(stencil);
+	clipNode->setInverted(inverted);
+	clipNode->setAlphaThreshold(alphaThreshold);
+	auto image = Sprite::create(imagePath);
+	clipNode->addChild(image);
+	return clipNode;
 }
